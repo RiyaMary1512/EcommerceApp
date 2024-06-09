@@ -52,6 +52,9 @@ For each truck, the following data is collected:
     ```
 
 2. **Navigate to the Project Directory** 
+
+All code relevant to IoT Truck Data Monitoring System project is found inside IoT-dataprocessing folder.
+
     ```sh
     cd IoT_dataprocessing
     cd IoT-data
@@ -69,6 +72,8 @@ For each truck, the following data is collected:
     sam deploy --guided
     ```
     Follow the prompts to provide stack name, AWS region, and other parameters.
+
+    Once resources are deployed, get the api url and add it in 'send_data_to_api' function inside 'truck_data_api.py' file, at line no. 68.
 
 5. **Generate Random Truck Data**
 
@@ -113,7 +118,6 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 We'd like to express our gratitude to the following:
 
-- **Streamlit**: For providing an intuitive framework for building web applications with Python.
 - **Amazon Web Services (AWS)**: For offering robust cloud infrastructure services that power TrendAnalyzerApp.
 - **Open Source Community**: For their continuous support and contributions to the world of technology.
 

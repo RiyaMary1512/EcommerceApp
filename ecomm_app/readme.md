@@ -8,7 +8,7 @@ This project is an e-commerce web application that tracks user interactions with
 - [Setup Instructions](#setup-instructions)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [AWS Configuration] (#awsconfiguration)
+  - [AWS Configuration](#aws-configuration)
   - [Deploying the Application](#deploying-the-application)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -42,7 +42,11 @@ Ensure you have the following tools installed:
     ```sh
     git clone https://github.com/RiyaMary1512/EcommerceApp.git
     ```
-2. Navigate to the Project Directory: Once cloned, navigate to the project directory:
+2. Navigate to the Project Directory: 
+
+All the code relevant to this ecommerce app & integration with AWS services are found inside ecomm_app folder.
+
+Once cloned, navigate to the project directory:
     ```sh
     cd ecomm_app
     cd ecomm_web-app
@@ -70,7 +74,7 @@ To deploy and run TrendAnalyzerApp, you'll need an AWS account and appropriate p
 
 Ready to deploy Ecommerce App? Follow these steps to deploy the application:
 
-1. **Build the Code**: The necessary AWS configurations have been given in 'template.yaml' file. Navigate to ecomm_web-app directory & build the code using sam:
+1. **Build the Code**: The necessary AWS configurations have been given in 'template.yaml' file. Navigate to ecomm_web-app directory inside ecomm_app folder & build the code using sam:
     ```bash
     sam build
     ```
