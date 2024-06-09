@@ -42,7 +42,6 @@ For each truck, the following data is collected:
 - Python 3.x
 - AWS CLI configured with appropriate permissions.
 - AWS SAM CLI for deployment.
-- Streamlit (Python library for building web applications)
 
 ### Setup Instructions
 
@@ -117,7 +116,6 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 ## Acknowledgements
 
 We'd like to express our gratitude to the following:
-
 - **Amazon Web Services (AWS)**: For offering robust cloud infrastructure services that power TrendAnalyzerApp.
 - **Open Source Community**: For their continuous support and contributions to the world of technology.
 
