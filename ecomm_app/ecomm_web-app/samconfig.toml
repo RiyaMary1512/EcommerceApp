@@ -4,7 +4,7 @@ version = 0.1
 
 [default]
 [default.global.parameters]
-stack_name = "ecomm-app"
+stack_name = "ecomm_web-app"
 
 [default.build.parameters]
 cached = true
@@ -17,7 +17,8 @@ lint = true
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
-s3_prefix = "ecomm-app"
+stack_name = "ecomm-web-app"
+s3_prefix = "ecomm-web-app"
 region = "ap-south-1"
 disable_rollback = true
 image_repositories = []

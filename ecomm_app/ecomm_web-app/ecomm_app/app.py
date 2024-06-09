@@ -7,7 +7,7 @@ from decimal import Decimal
 
 # Initialize DynamoDB resource
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('ProductViewTable')
+table = dynamodb.Table('ProductDataTable')
 
 # Configure logging
 logger = logging.getLogger()

@@ -1,7 +1,7 @@
 {
-  "body": "{\"message\": \"truck data\"}",
-  "resource": "/truck",
-  "path": "/truck",
+  "body": "{\"message\": \"ecomm app\"}",
+  "resource": "/ecomm",
+  "path": "/ecomm",
   "httpMethod": "GET",
   "isBase64Encoded": false,
   "queryStringParameters": {
@@ -53,8 +53,8 @@
       "userAgent": "Custom User Agent String",
       "user": null
     },
-    "path": "/prod/truck",
-    "resourcePath": "/truck",
+    "path": "/prod/ecomm",
+    "resourcePath": "/ecomm",
     "httpMethod": "POST",
     "apiId": "1234567890",
     "protocol": "HTTP/1.1"
